@@ -26,12 +26,11 @@ export default function Home() {
 	}, []);
 
 	return (
-		<div>
+		<div className="wrapper">
 			<Image
 				className="imagenresu"
 				src={ResuImg}
 				alt="Next.js Logo"
-				priority
 			/>
 			{remainingTime ? (
 				<div className="cajaprincipal">
